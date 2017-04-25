@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>647A5974-ED1C-4BAB-84F1-5CD7A9A87DED</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DroiKids</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>003f1410-958c-314d-8755-ddd88bca8bef++9242</key>
+		<string>https://192.168.0.7/svn/ios/trunk/DroiKids</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DroiKids.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>003f1410-958c-314d-8755-ddd88bca8bef++9242</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>003f1410-958c-314d-8755-ddd88bca8bef++9242</key>
+		<string>https://192.168.0.7/svn/ios</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://192.168.0.7/svn/ios/trunk/DroiKids/DroiKids.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>003f1410-958c-314d-8755-ddd88bca8bef++9242</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>003f1410-958c-314d-8755-ddd88bca8bef++9242</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DroiKids</string>
+		</dict>
+	</array>
+</dict>
+</plist>

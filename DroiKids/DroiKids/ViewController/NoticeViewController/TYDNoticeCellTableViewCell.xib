@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="noticeCell" selectionStyle="default" indentationWidth="10" rowHeight="88" id="KGk-i7-Jjw" customClass="TYDNoticeCellTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="66"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="65.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xMI-2D-TV1">
+                        <rect key="frame" x="17" y="10" width="45" height="45"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="45" id="Sej-EO-SZG"/>
+                            <constraint firstAttribute="width" constant="45" id="iYE-6x-tIx"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="未接来电" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OO8-eU-Tpo">
+                        <rect key="frame" x="79" y="13" width="64" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="位置：上海市徐汇区桂平路391号" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YhV-E0-rf2">
+                        <rect key="frame" x="79" y="35" width="177" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="17：39" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A6f-S5-KsF">
+                        <rect key="frame" x="263" y="14" width="46" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="centerY" secondItem="OO8-eU-Tpo" secondAttribute="centerY" constant="10" id="8T1-OJ-Tws"/>
+                    <constraint firstAttribute="centerY" secondItem="YhV-E0-rf2" secondAttribute="centerY" constant="-10" id="AF8-mp-gVj"/>
+                    <constraint firstItem="OO8-eU-Tpo" firstAttribute="leading" secondItem="xMI-2D-TV1" secondAttribute="trailing" constant="17" id="M9P-lC-p2E"/>
+                    <constraint firstAttribute="centerY" secondItem="xMI-2D-TV1" secondAttribute="centerY" id="QzV-jY-713"/>
+                    <constraint firstItem="OO8-eU-Tpo" firstAttribute="centerY" secondItem="A6f-S5-KsF" secondAttribute="centerY" id="RFI-L0-M6E"/>
+                    <constraint firstItem="OO8-eU-Tpo" firstAttribute="leading" secondItem="YhV-E0-rf2" secondAttribute="leading" id="WLn-d0-eII"/>
+                    <constraint firstItem="xMI-2D-TV1" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="17" id="hzR-bW-fZX"/>
+                    <constraint firstAttribute="trailing" secondItem="A6f-S5-KsF" secondAttribute="trailing" constant="11" id="i6S-6N-6vf"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="avatarImageView" destination="xMI-2D-TV1" id="PIr-cf-mbh"/>
+                <outlet property="noticeLocationLabel" destination="YhV-E0-rf2" id="Ixm-gm-evR"/>
+                <outlet property="noticeTimeLabel" destination="A6f-S5-KsF" id="rax-8y-Rlz"/>
+                <outlet property="noticeTypeLabel" destination="OO8-eU-Tpo" id="IIU-A3-YRZ"/>
+            </connections>
+            <point key="canvasLocation" x="462" y="387"/>
+        </tableViewCell>
+    </objects>
+</document>
